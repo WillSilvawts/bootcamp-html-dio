@@ -1,0 +1,108 @@
+BOOTCAMP HTML DIO 
+-------------------------------
+
+	ESTRUTURA BÁSICA HTML
+	======================
+Um arquivo HTML é composto por uma estrutura básica que se compõe da seguinte maneira:
+<html> </html> = Tag que indica qual é o formato do documento
+<head> </head>  = Tag que recebe as informações antes de carregar o conteúdo para o usuario
+<body> </body> = Conteúdo exibido para o usuario
+
+OBS: Todas as TAGS precisam ser abertas e fechadas <..>  </..>
+
+	ATRIBUTOS DE TAGS
+	=======================
+Sâo propriedades (configuração) de uma tag. 
+ID = Identificador do elemento.
+
+STYLE (voltado mais para ser usado no CSS) = Colocar comando CSS direto no elemento.
+
+CLASS (voltado mais para ser usado no CSS) = Forma de padronizar para aplicar estilo e formatação
+
+-> Atributos mais específicos 
+---------------------------------
+INPUT TYPE = Type é um atributo usado apenas com o INPUT, serve para o usuário adicionar alguma informação.
+
+IMG SRC= SRC funciona apenas com o IMG e serve para adicionar o caminho de uma imagem.
+
+
+	TAGS COM FINALIDADES TEXTOS
+	=============================
+<H>'s (h1, h2, h3) = Headers, serve como Título, Sub-título e assim por adiante indo até o H6
+
+<P> = Tag usado para parágrafo.
+
+<SMALL> = Usado para deixar um texto pequeno.
+
+<blockquote> = Serve para fazer uma citação ou uma observação. Fica legal de ser usado com algumas aspas " " grandes, ou em ítalico.
+
+<mark> = Função de marca-texto.
+
+** lista com TAGS html **
+www.w3schools.com
+
+
+	LISTAS ORDENADAS E NÃO-ORDENADAS
+	==================================
+
+--> ORDENADAS
+Possui uma particularidade de precisar de "filhas" (tags dentro de outra). E terá uma ordem sequenciada por números.
+<ol> 
+ <li> item da lista 1 </li>
+ <li> item da lista 2 </li>
+</ol>
+
+--> NÃO-ORDENADAS
+Ao invés de ser usado números para realizar a marcação ela utiliza outro tipo (tipo bolinhas). Muito usada para fazer MENU e ser formatada no CSS.
+<ul> 
+ <li> item da lista 1 </li>
+ <li> item da lista 2 </li>
+</ul>
+
+
+	LINKS
+	=======
+Usa-se a tag <a> , pois entende-se como âncora. Ela precisa ter a tag fechada.
+<a href= "digita o site aqui dentro"> CLIQUE AQUI  </a>
+
+Atributos usados dentro da TAG <a>
+--------------------------------------
+-> Para abrir um link em uma nova aba:
+target="_SELF" - Abre na própria janela
+target="_BLANK" - Abre em uma nova aba
+
+-> Para mostrar um box (tooltip) antes de clicar no link
+titile ="digite o texto"
+
+-> Para navegar dentro do meu site (navegar entre minhas páginas)
+Uso o nome da minha página e coloco no "href"
+<a href="home"> Página Inicial </a>
+
+-> Para fazer efeito âncora (role a página pra baixo)
+Usar " #ID " e colocar o ID no item desejado que ele leve o usuário.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+		
